@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f1e8">
-  <title>Hello, world!</title>
+  <title>Contemplative Fuggler</title>
   <style>
     :root {
       color-scheme: light;
@@ -31,26 +31,46 @@
       text-align: center;
     }
 
-    h1 {
+    figure {
       margin: 0;
-      font-size: clamp(3rem, 12vw, 7rem);
-      font-weight: 400;
-      line-height: 1;
     }
 
-    p {
-      margin: 1.25rem 0 0;
+    img {
+      display: block;
+      max-width: min(90vw, 720px);
+      max-height: 78vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      margin-inline: auto;
+    }
+
+    figcaption {
+      margin-top: 0.75rem;
       color: #a34f36;
-      font: 600 0.75rem/1.4 ui-monospace, monospace;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+      font: 0.75rem/1.4 ui-monospace, monospace;
+    }
+
+    figcaption a {
+      color: inherit;
+      overflow-wrap: anywhere;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>Hello, world!</h1>
-    <p>A little page on the web</p>
+    <figure>
+      <img
+        src="images/contemplative_sexybeast_fuggler-PxnWMx8E.jpg"
+        alt="A contemplative Fuggler plush toy"
+      >
+      <figcaption>
+        From:
+        <a href="https://www.louisemcg.com/assets/contemplative_sexybeast_fuggler-PxnWMx8E.jpg">
+          louisemcg.com
+        </a>
+      </figcaption>
+    </figure>
   </main>
 </body>
 </html>
